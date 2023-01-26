@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+
+}
+
+img {
+   max-width: 90%;
+   border-radius: 10px;
+   margin: auto;
+   margin-bottom: 5px;
+   margin-top: 16px;
+
+}
+p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    line-height: 20px;
+}
+h2 {
+    
+    color: hsl(218, 44%, 22%);
+}
+.square-background {
+    /* on same line */
+    display: flex;
+    /* stacked */
+    flex-direction: column;
+    width: max(20%, 20rem);
+    height: 520px;
+    background-color: white;
+    border-radius: 25px;
+    margin: 9.37rem auto;
+    box-shadow: -2px 10px 24px -11px rgba(0, 0, 0, 0.62);
+}
